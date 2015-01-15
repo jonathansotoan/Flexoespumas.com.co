@@ -1,0 +1,174 @@
+html {
+	background-color: #8cb015;
+}
+
+body {
+	width: 960px;
+	margin: auto;
+	text-align: center;
+	font-family: Helvetica, Arial;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 60px rgba( 0, 0, 0, 0.5 );
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+header {
+	margin-top: 10px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+a {
+	color: white;
+	text-decoration: blink;
+}
+
+h3 {
+	color: #8cb015;
+	text-align: center;
+	font-size: 25px;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+nav ul {
+	height: 50px;
+	width: 900px;
+	background-color: #1d1d1d;
+	color: #FFF;
+	font-size: 30px;
+	margin: 10px;
+	position: fixed;
+	top: 0px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 7px;
+}
+
+section {
+	/*margin-top: 80px;*/
+}
+
+table {
+	margin: auto;
+	border-spacing: 10px;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+table td {
+	text-align: left;
+}
+
+form input, form textarea {
+	width: 350px;
+	font-size: 20px;
+	height: 25px;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+form textarea {
+	height: 300px;
+}
+
+footer {
+	margin-top: 70px;
+	margin-bottom: 20px;
+	background-color: #1d1d1d;
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 0px 0px 10px 10px;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+#mision {
+	width: 440px;
+	margin-left: 20px;
+	float: left;
+	text-align: justify;
+}
+
+#vision {
+	width: 440px;
+	margin-right: 20px;
+	float: right;
+	text-align: justify;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+#pDeCalidad {
+	width: 560px;
+	padding-top: 290px;
+	margin: auto;
+	text-align: justify;
+}
+
+#pDeCalidad div {
+	padding-bottom: 25px;
+}
+
+#email:not(:focus):invalid, form textarea:not(:focus):invalid {
+	border: 2px solid red;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+#button {
+	width: 200px;
+	height: 35px;
+}
+
+#maximized {
+	background-color: #8cb015;
+	height: 612px;
+	width: 792px;
+	font-size: 40px;
+	margin: auto;
+	margin-bottom: 30px;
+	color: white;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+#productsDiv {
+	height: 620px;
+}
+
+#sendButton {
+	width: 100px;
+	background-color: #8cb015;
+	text-align: center;
+	font-size: 15px;
+	vertical-align: middle;
+	padding: 15px 0;
+	cursor: pointer;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+.bodyText {
+	font-size: 20px;
+}
+
+.separator {
+	width: 700px;
+	height: 10px;
+	background-color: #8cb015;
+	border-radius: 4px;
+	margin: auto;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+.miniature {
+	width: 130px;
+	cursor: pointer;
+}
+
+.imgMaximized {
+	width: 792px;
+	height: 612px;
+	margin: auto;
+}
+
+.decorated {
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.5 );
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
+.selected {
+	outline: 4px solid #1d1d1d;
+}
+/*Hecho por Jonathan Soto: theja29@hotmail.com*/
